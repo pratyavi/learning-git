@@ -1,0 +1,33 @@
+{
+  "name": "MDM_Automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "node-inspector": "node-inspector --debug-port 5859 --no-preload",
+    "selenium-postinstall": "node node_modules/.bin/selenium-standalone install",
+    "selenium-start": "node_modules/.bin/selenium-standalone start",
+    "test": "wdio"
+  },
+  "keywords": [],
+  "author": "Pratyavi Chhipa",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "cucumber": "^4.2.1",
+    "exceljs": "^1.6.0",
+    "gulp": "^3.9.1",
+    "gulp-wdio": "^1.0.8",
+    "selenium-standalone": "^6.15.1",
+    "wdio-allure-reporter": "^0.7.0",
+    "wdio-cucumber-framework": "^2.2.2",
+    "wdio-selenium-standalone-service": "0.0.10",
+    "webdriverio": "^4.13.1"
+  }
+}

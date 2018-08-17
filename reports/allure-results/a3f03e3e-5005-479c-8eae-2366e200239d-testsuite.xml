@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1534492054671' stop='1534492079397'>
+    <name>MDM Server Login Login to server</name>
+    <title>MDM Server Login Login to server</title>
+    <test-cases>
+        <test-case start='1534492054846' status='passed' stop='1534492074393'>
+            <name>Open the LoginPage</name>
+            <title>Open the LoginPage</title>
+            <labels>
+                <label name='feature' value='MDM Server Login'/>
+                <label name='story' value='Login to server'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\7p\\Automation Suite\\Wdio\\MDM\\test\\features\\login.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1534492074394' status='passed' stop='1534492075390'>
+            <name>enter &lt;username> and &lt;password> and click login button</name>
+            <title>enter &lt;username> and &lt;password> and click login button</title>
+            <labels>
+                <label name='feature' value='MDM Server Login'/>
+                <label name='story' value='Login to server'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\7p\\Automation Suite\\Wdio\\MDM\\test\\features\\login.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1534492075390' status='passed' stop='1534492079395'>
+            <name>user logged in successful and admin name &lt;username> is visible</name>
+            <title>user logged in successful and admin name &lt;username> is visible</title>
+            <labels>
+                <label name='feature' value='MDM Server Login'/>
+                <label name='story' value='Login to server'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\7p\\Automation Suite\\Wdio\\MDM\\test\\features\\login.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
